@@ -1,0 +1,7 @@
+FAT FS will request for a sector to write into or read from. 
+        FAT     FS
+            -- request "logical" sector address.
+        FTL
+            --converts that logic address into a physical address
+        Driver
+            -- performs the action into the given physical address.
